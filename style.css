@@ -1,0 +1,98 @@
+@charset "UTF-8";
+body{
+    max-height: 757px;
+    max-width: 1583px;
+    background-color: #FAFAFA;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;;
+}
+main {
+    max-height: 682px;
+    max-width: 1583px;
+    position: relative;
+}
+article {
+    max-height: 618px;
+    max-width: 935px;
+    position: relative;
+    margin: auto;
+    margin-top: 32px;
+    text-align: center;
+    padding-bottom: 32px;
+}
+#left {
+    height: 618px;
+    width: 454px;
+    position: relative; 
+    display: inline-block;
+    background-image: url('imagens/bg.png');   
+    background-size: 454px 618px;
+    background-repeat: no-repeat;
+    margin: 0px -15px 0px -35px;
+    padding: 0px;
+}
+#left img  {
+    position: absolute;
+    top: 16%;
+    left: 33%;      
+}
+#right {
+    height: 606px;
+    max-width: 350px;
+    position: relative;
+    display: inline-block;  
+    float: right; 
+    left: -12%;     
+    margin-top: 12px;
+}
+.caixa{
+    border: 1px solid #d4d0d0;
+    margin: 10px;
+    padding: 10px;   
+    height: 41px;
+    width: 348px;
+    background-color: white;
+    
+}
+.caixa h1{
+    background-image: url('imagens/bgig1.png');
+    background-repeat: no-repeat;
+    background-position: 0px -130px;
+    height: 51px;
+    width: 175px;
+    margin: 22px auto 12px;
+}
+#fist{
+    height: 360px;
+    width: 348px;
+    
+}
+#app {
+    height: 112px;
+    width: 350px;
+}
+a img {
+    max-height: 40px;
+    max-width: 136px;
+}
+input{
+    height: 38px;
+    width: 268px;
+    font-size: small;
+    border-radius: 2.5px 5px 5px 5px;
+    margin: 2px;
+    border: 1px solid #d4d0d0;
+}
+button {
+    height: 30px;
+    width: 268px;
+    background-color: #0095f6;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 0px;
+}
+#loginf {
+    color: blue;
+    background-color: white;
+    border: 0px;
+}
